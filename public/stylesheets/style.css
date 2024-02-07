@@ -1,0 +1,62 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /* max-width: 700px;
+  margin: auto; */
+}
+
+/* form {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+} */
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  text-align: center;
+}
+
+/* div {
+  display: block;
+  position: relative;
+} */
+
+h1 {
+  text-align: center;
+  font-size: 48px;
+  letter-spacing: -1.2px;
+  line-height: 46px;
+}
+
+.source {
+  flex-basis: 50%;
+  margin-left: 25%;
+}
+
+.HostAndPort {
+  grid-gap: 32px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+/* .InputRow {
+  align-items: center;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+} */
+
+
+.Input-module__Input {
+  font-family: Telegraf,Arial,Helvetica,sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  height: 45px;
+  letter-spacing: -.06px;
+  line-height: 18px;
+  padding-left: 16px;
+  width: 100%; 
+}

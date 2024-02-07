@@ -1,0 +1,29 @@
+extends layout
+
+block content
+  h1= title
+  p #{text}
+  br
+  .source
+    form(action='/test' method='POST')
+      div.HostAndPort
+        div.InputRow
+          label(for='host') Server address
+          input.source-input-host.Input-module__Input(type='input' name='host')
+          label(for='port') Port
+          input.source-input-port.Input-module__Input(type='input' name='port')
+      //- div.Database
+      //- label(for='database') Database name
+      //- input.source-input-database.Input-module__Input(type='input' name='database' )
+      //- div.Database-User
+      //- label(for='user') Username
+      //- input.source-input-user.Input-module__Input(type='input' name='user')
+      //- div.Database-Password 
+      //- label(for='pw') Password
+      //- input.source-input-pw.Input-module__Input(type='password' name='pw' value='Select password')
+      div.Submit
+      input.source-input-submit(type='submit' name='submit' value='Test Connection') 
+      br
+      br
+      textarea#output(name='test-output', cols="30", rows="10") 
+
